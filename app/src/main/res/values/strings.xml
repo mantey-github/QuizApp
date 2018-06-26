@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">8 Planets</string>
+    <string name="questions_activity_title">8 Planets - Questions</string>
+
+    <string name="planet_description">Ever since the discovery of
+        Pluto in 1930, we grew up learning about the nine planets
+        of our solar system. That all changed starting in the late 1990s,
+        when astronomers began to argue about whether Pluto was a planet.
+        In a highly controversial decision, the International
+        Astronomical Union ultimately decided in 2006 to call Pluto a
+        "dwarf planet," reducing the list of "real planets" in our solar system to eight.
+        \n\nSo now you know why its 8 planets.
+    </string>
+    <string name="title">How Well Do You Know The 8 Planets of Our Solar System?</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="click_text">Click on the button to test your knowledge about the planets in our solar system.</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_1_text">Which of the planets are found in our Solar System?</string>
+    <string name="question_2_text">The temperature on this planet\'s surface is hot enough to melt lead. Which one is it?</string>
+    <string name="question_3_text">Which of the phenomena occurs on Mars?</string>
+    <string name="question_4_text">Which of the planets have rings?</string>
+    <string name="question_5_text">How many moons is Pluto known to have as of July 2012 ?</string>
+    <string name="question_6_text">True or false? Neptune is larger than Saturn.</string>
+    <string name="question_7_text">The sixth planet from the Sun features an extensive ring system, what is the name of this planet?</string>
+    <string name="planets_name">Planet\'s name</string>
+    <string name="question_8_text">What planet in the solar system is farthest from the Sun?</string>
+    <string name="question_9_text">Now that Pluto is no longer included, how many planets are there in the Solar System?</string>
+    <string name="question_10_text">True or false? Venus has more atmospheric pressure than Earth?</string>
+    <string name="question_10">Question 10</string>
+    <string name="provide_a_number_digit">Provide a number (digit)</string>
+    <string name="question_9">Question 9</string>
+    <string name="question_8">Question 8</string>
+    <string name="question_7">Question 7</string>
+    <string name="question_6">Question 6</string>
+    <string name="question_5">Question 5</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_2">Question 2</string>
+    <string name="mercury">Mercury</string>
+    <string name="ceres">Ceres</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="venus">Venus</string>
+    <string name="earth">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="tidal_waves">Tidal waves</string>
+    <string name="dust_storms">Dust storms</string>
+    <string name="hurricane">Hurricane</string>
+    <string name="saturn">Saturn</string>
+    <string name="uranus">Uranus</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="one">1</string>
+    <string name="qtrue">True</string>
+    <string name="qfalse">False</string>
+    <string name="neptune">Neptune</string>
+</resources>
