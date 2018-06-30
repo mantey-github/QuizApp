@@ -2,14 +2,10 @@
     <string name="app_name">8 Planets</string>
     <string name="questions_activity_title">8 Planets - Questions</string>
 
-    <string name="planet_description">Ever since the discovery of
-        Pluto in 1930, we grew up learning about the nine planets
-        of our solar system. That all changed starting in the late 1990s,
-        when astronomers began to argue about whether Pluto was a planet.
-        In a highly controversial decision, the International
-        Astronomical Union ultimately decided in 2006 to call Pluto a
-        "dwarf planet," reducing the list of "real planets" in our solar system to eight.
-        \n\nSo now you know why its 8 planets.
+    <string name="planet_description">Do you know, Saturn is the sixth planet
+        from the sun and the second largest planet in the solar system.
+        And also Saturn is the root of the English word "Saturday". How much do you know about the sixth planet from the sun?
+        \n\nWith <b>8 Planets</b> you get to know more!!!
     </string>
     <string name="title">How Well Do You Know The 8 Planets of Our Solar System?</string>
     <string name="start_quiz">Start Quiz</string>
@@ -54,4 +50,10 @@
     <string name="qtrue">True</string>
     <string name="qfalse">False</string>
     <string name="neptune">Neptune</string>
+    <string name="play_again">Play Again</string>
+    <string name="restart">Restart</string>
+    <string name="planet_image">Planet Image</string>
+    <string name="image_of_planet_saturn">Image of Planet Saturn</string>
+
+
 </resources>

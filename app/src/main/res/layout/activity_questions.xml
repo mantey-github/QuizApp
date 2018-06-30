@@ -10,57 +10,57 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/question_1"
-                    android:layout_marginBottom="8dp"
-                    android:textSize="16sp"
-                    android:textColor="@color/colorBlack"
-                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_1"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/question_1_text"
-                    android:textColor="@color/colorBlack"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"
-                    android:layout_marginBottom="8dp"
-                    android:lineSpacingMultiplier="1.2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/question_1_text"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
 
-                <CheckBox
-                    android:id="@+id/question_one_correct_answer_one"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mercury"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+            <CheckBox
+                android:id="@+id/question_one_correct_answer_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/mercury"
+                android:textSize="16sp" />
 
-                <CheckBox
-                    android:id="@+id/question_one_wrong_answer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/ceres"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+            <CheckBox
+                android:id="@+id/question_one_wrong_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/ceres"
+                android:textSize="16sp" />
 
-                <CheckBox
-                    android:id="@+id/question_one_correct_answer_two"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/jupiter"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+            <CheckBox
+                android:id="@+id/question_one_correct_answer_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/jupiter"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -68,27 +68,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_2"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_2"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_2_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -99,25 +99,25 @@
                     android:id="@+id/question_two_correct_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/venus"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/venus"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_two_wrong_answer_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/earth"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/earth"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_two_wrong_answer_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mars"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/mars"
+                    android:textSize="16sp" />
 
             </RadioGroup>
 
@@ -127,27 +127,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_3"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_3"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_3_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -158,25 +158,25 @@
                     android:id="@+id/question_three_wrong_answer_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tidal_waves"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/tidal_waves"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_three_correct_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dust_storms"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/dust_storms"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_three_wrong_answer_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/hurricane"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/hurricane"
+                    android:textSize="16sp" />
 
             </RadioGroup>
 
@@ -186,51 +186,51 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_4"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_4"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_4_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <CheckBox
                 android:id="@+id/question_four_correct_answer_one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/saturn"
                 android:fontFamily="sans-serif-light"
-                android:textSize="16sp"/>
+                android:text="@string/saturn"
+                android:textSize="16sp" />
 
             <CheckBox
                 android:id="@+id/question_four_wrong_answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/earth"
                 android:fontFamily="sans-serif-light"
-                android:textSize="16sp"/>
+                android:text="@string/earth"
+                android:textSize="16sp" />
 
             <CheckBox
                 android:id="@+id/question_four_correct_answer_two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/uranus"
                 android:fontFamily="sans-serif-light"
-                android:textSize="16sp"/>
+                android:text="@string/uranus"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -238,27 +238,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_5"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_5"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_5_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -269,25 +269,25 @@
                     android:id="@+id/question_five_wrong_answer_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/four"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/four"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_five_correct_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/five"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/five"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_five_wrong_answer_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/one"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/one"
+                    android:textSize="16sp" />
 
             </RadioGroup>
 
@@ -297,27 +297,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_6"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_6"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_6_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -328,60 +328,59 @@
                     android:id="@+id/question_six_wrong_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/qtrue"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/qtrue"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_six_correct_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/qfalse"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/qfalse"
+                    android:textSize="16sp" />
 
             </RadioGroup>
 
         </LinearLayout>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_7"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_7"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_7_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
 
             <EditText
                 android:id="@+id/question_seven_answer"
+                style="@style/Widget.AppCompat.EditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:hint="@string/planets_name"
-                android:textColor="@color/colorBlack"
-                style="@style/Widget.AppCompat.EditText"
                 android:fontFamily="sans-serif-light"
-                android:inputType="text" />
+                android:hint="@string/planets_name"
+                android:inputType="text"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -389,27 +388,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_8"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_8"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_8_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -420,25 +419,25 @@
                     android:id="@+id/question_eight_wrong_answer_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/jupiter"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/jupiter"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_eight_correct_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/neptune"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/neptune"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_eight_wrong_answer_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/venus"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/venus"
+                    android:textSize="16sp" />
 
             </RadioGroup>
 
@@ -448,39 +447,39 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_9"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_9"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_9_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
 
             <EditText
                 android:id="@+id/question_nine_answer"
+                style="@style/Widget.AppCompat.EditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:hint="@string/provide_a_number_digit"
-                android:textColor="@color/colorBlack"
-                style="@style/Widget.AppCompat.EditText"
                 android:fontFamily="sans-serif-light"
-                android:inputType="number" />
+                android:hint="@string/provide_a_number_digit"
+                android:inputType="number"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -488,27 +487,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_10"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/question_10"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingMultiplier="1.2"
                 android:text="@string/question_10_text"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-light"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:lineSpacingMultiplier="1.2"/>
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -519,22 +518,21 @@
                     android:id="@+id/question_ten_wrong_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/qfalse"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/qfalse"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/question_ten_correct_answer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/qtrue"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="16sp"/>
+                    android:text="@string/qtrue"
+                    android:textSize="16sp" />
 
             </RadioGroup>
 
         </LinearLayout>
-
 
 
         <Button
@@ -545,10 +543,10 @@
             android:layout_marginBottom="24dp"
             android:layout_marginTop="24dp"
             android:onClick="submitButton"
-            android:textSize="16sp"
-            android:paddingTop="16dp"
             android:paddingBottom="16dp"
-            android:text="@string/submit_answers" />
+            android:paddingTop="16dp"
+            android:text="@string/submit_answers"
+            android:textSize="16sp" />
 
 
     </LinearLayout>
